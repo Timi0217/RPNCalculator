@@ -1,0 +1,85 @@
+Title: Cheshire ConCATenation - No Strings Attached
+
+Author: Oluwatimilehin Dayo-Kayode
+
+Purpose: Create and manipulate a linked list of characters using multiple functions
+
+Files: RPNCalc.cpp RPNCalc.h testRPNCalc.cpp DoubleStack.cpp DoubleStack.h
+testDoubleStack.cpp filetest MakeFile
+
+-DoubleStack.h
+
+This file contains the declaration of the constructors, destructors, functions, 
+and variables that I used in my DoubleStack.cpp file. 
+
+
+-DoubleStack.cpp
+
+This file contains my constructor and function definitions, and 
+initializes all my variables previously declared in the header file. It also
+handles the creation of the sequence stack that will be required by the 
+RPNCalc
+
+testDoubleStack.cpp 
+
+This file contains a main.cpp function that I used to test the functions I 
+created and make sure that they worked the way the specifications 
+said they should. I also use it to test corner cases and make sure that 
+the program doesn't have an achilles heel
+
+-RPNCalc.h
+
+This file contains the declaration of the constructors, destructors, functions, 
+and variables that I used in my RPNCalc.cpp file.
+
+
+-RPNCalc.cpp
+
+This file contains my constructor and function definitions, and 
+initializes all my variables previously declared in the header file. It also 
+handles all my arithmetic operations and makes use of the DoubleStack class in
+getting mathematical operations from a stack and pushing results to the stack
+
+
+-testRPNCalc.cpp
+
+This file creates an instance of my RPNCalc class and runs it using the run
+function declared and defined in the class.
+
+-filetest
+
+This file contains input to be read into my calculator using the 'f' command 
+and is used in my testing to ensure that it works properly.
+
+
+-copy of filetest
+
+4
+9
++
+p
+9
+6
+-
+p
+f
+34
++
+
+
+README
+
+This file contains a general description and information 
+about my program and its implementation as a whole.
+
+
+MakeFile
+
+
+
+-I used sequences in this program as a way to store the doubles
+that I use in calculations and the results of these calculations
+
+I tested the assignment by putting edge cases that made sure that my 
+mathematical operations were working. I also tested my code against the tests 
+from the provide to ensure that I didn't forget any corner cases.
